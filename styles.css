@@ -1,0 +1,327 @@
+/*
+// Base
+// -------------------------------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font: 16px 'Arial', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*
+// Utility classes
+// -------------------------------------------------- */
+
+.content-wrapper {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.cleafix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+/*
+// Buttons
+// -------------------------------------------------- */
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #C93B3D;
+}
+
+.btn-secondary {
+    background-color: #314357;
+}
+
+.btn-tertiary {
+    background-color: #EF913A;
+}
+
+/*
+// Main header
+// -------------------------------------------------- */
+
+.main-header {
+    background-color: #BF232C;
+    color: #EBD9D6;
+    padding: 10px 15px;
+}
+
+.main-header a {
+    color: #EBD9D6;
+}
+
+.main-header .heart {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.main-header__left {
+    float: left;
+}
+
+.main-header__nav {
+    float: right;
+}
+
+.main-header__nav a {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.section {
+    color: #fff;
+}
+
+/*
+// First Section
+// -------------------------------------------------- */
+
+.first-section {
+    background: #25607F url(images/city-scape.svg) no-repeat;
+    height: 490px;
+}
+
+.first-section__header {
+    display: flex;
+    padding: 15px;
+}
+
+.first-section__header .main-logo {
+    flex: 0 1 145px;
+}
+
+.first-section__header .search-form-wrapper {
+    flex: 0 1 100%;
+    height: 42px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.search-form-wrapper .search-input {
+    background-color: #1D475E;
+    border: 2px solid #466781;
+    color: #fff;
+    width: 100%;
+    height: 42px;
+    font-size: 16px;
+    display: block;
+    padding-left: 12px;
+    padding-right: 55px;
+}
+
+.search-form-wrapper .search-submit-btn {
+    border: none;
+    background-color: #1D475E;
+    border: 2px solid #466781;
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.first-section__header .signup-login {
+    flex: 0 1 190px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.first-section__header .signup-login a {
+    color: #fff;
+    white-space: nowrap;
+}
+
+.first-section__header .signup-login span {
+    margin: 0 5px;
+}
+
+.first-section__header .signup-login .bear-icon {
+    margin-right: 0;
+}
+
+.first-section__wrapper {
+    max-width: 580px;
+}
+
+.first-section__body .content-wrapper {
+    padding-top: 35px;
+    padding-left: 145px;
+}
+
+.first-section__body h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.first-section__body p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+
+/*
+// Second Section
+// -------------------------------------------------- */
+
+.second-section {
+    background-color: #273546;
+}
+
+.second-section .content-wrapper {
+    padding: 120px 15px 100px;
+    display: flex;
+}
+
+.second-section__left {
+    flex: 0 1 50%;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.second-section__right {
+    flex: 0 1 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.second-section h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.second-section ul {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.second-section ul li {
+    margin-bottom: 12px;
+}
+
+.second-section .btn {
+    margin-bottom: 10px;
+}
+
+.second-section .link-more {
+    color: #fff;
+}
+
+
+/*
+// Third Section
+// -------------------------------------------------- */
+
+.third-section {
+    background: url(images/forklift.svg) no-repeat;
+    height: 580px;
+    padding-top: 100px;
+}
+
+.third-section__body .content-wrapper {
+    padding-top: 35px;
+    padding-left: 145px;
+}
+
+.third-section__wrapper {
+    max-width: 420px;
+}
+
+.third-section__body h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.third-section__body p {
+    font-size: 20px;
+}
+
+
+/*
+// Fourth Section
+// -------------------------------------------------- */
+
+.fourth-section {
+    color: #545A61;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.fourth-section .content-wrapper {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.fourth-section__header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.fourth-section__header h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.fourth-section__body {
+    display: flex;
+}
+
+.feature {
+    flex: 1 0 33.33%;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.feature h4 {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.feature a {
+    color: #C93B3D;
+}
